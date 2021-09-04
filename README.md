@@ -4,7 +4,7 @@ https://user-images.githubusercontent.com/87017227/132104091-a304231a-4e62-4d05-
 
 # consoleJS
 
-<p>Sozlash:</p>
+# Sozlash:
 
 <p>Ushbu proyectni CLI</p>
 
