@@ -98,6 +98,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
           g_text: ""
         };
         if (regexp.test(_text)) {
+          _text = _text.replace(/\n/g, "**[NEWLINE]**");
           var infos = _text.match(regexp);
           for (var index = 0; index < infos.length; index++) {
             var innerRegx = /<(\d+)\s*(style=([\"\'])(.*?)\3)?>(.*?)<\/\1>/gi;
@@ -116,6 +117,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
           }
         } else {
           props = null;
+        }
+        if(props) {
+          props.g_text = props.g_text.replace(/\*\*\[NEWLINE\]\*\*/g, "\n")
         }
         return props;
       }
