@@ -136,9 +136,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 /*
     <(\d)\s*(style=([\"\'])(.*?)\3)?>(.*?)<\/\1>
-    1 - number of size
-    2 - NULL
-    3 - NULL
+    1 - SIZE
+    2 - DN
+    3 - DN
     4 - STYLE
     5 - TEXT
 */
