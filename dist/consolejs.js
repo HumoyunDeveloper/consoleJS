@@ -1,7 +1,6 @@
 /* 
     Name: consoleJS
     Created by: Humoyun 
-    Description: Style your console!
 */
 
 "use strict";
